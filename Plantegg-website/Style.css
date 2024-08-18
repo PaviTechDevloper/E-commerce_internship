@@ -1,0 +1,106 @@
+.log{
+	background-color: goldenrod;
+	height: 50px;
+}
+     .background {
+            position: relative;
+            height: 900px;
+            overflow: hidden;
+        }
+        .carousel-item img {
+            height: 100%;
+            object-fit: cover;
+        }
+        #carouselExampleIndicators {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .nav, .log {
+            position: relative;
+            z-index: 1;
+        }
+.list {
+    margin-top: 10px;
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 418px;
+    font-size: 25px;
+}
+        /* Custom CSS to remove underline from links */
+        .log a {
+            text-decoration: none; /* Remove underline */
+            color: inherit; /* Inherit text color */
+        }
+
+.nav img{
+	height: 90px;
+}
+.carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-left: 320px;
+        
+}
+.carousel-caption h1 {
+            color: white;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 117px;
+            margin-right: 27px;
+        }
+.carousel-caption span{
+	
+}
+.carousel-caption h5{
+     margin-right: 320px;
+    }
+.a {
+    border: 1px solid goldenrod; 
+    padding: 10px; 
+    display: inline-block; 
+    text-align: center; 
+    margin-left: 90px;
+    margin-left: -460px;
+    margin-top: 64px;
+    border-radius: 28px;
+
+}
+.a a {
+            text-decoration: none; 
+            color: goldenrod; 
+            font-weight: bold; /* Make text bold */
+        }
+     .story {
+            text-align: center;
+            padding: 20px;
+        }
+        .story img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px; /* adjust this value as needed */
+            height: auto;
+        }
+        .story h1, .story h5, .story p {
+            margin: 20px 0;
+        }
+   .footer {
+            background-color: black;
+            padding: 40px 0;
+            text-align: center;
+            color: white;
+        }
+    .footer img{
+    	height: 100px;
+    }
+        .footer .col {
+            margin-bottom: 20px;
+        }
